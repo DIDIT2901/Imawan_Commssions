@@ -331,7 +331,7 @@ h6 {
   margin: 0;
   font-weight: 200;
   color: #fff;
-  font-family: var(--font-title);
+  font-family: var(--font-primary);
 }
 
 .header .logo i {
