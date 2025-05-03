@@ -695,9 +695,9 @@ h6 {
 
 .popup-box {
   background: #202020;
-  padding: 20px;
+  padding-right: 10px;
   border-radius: 8px;
-  margin: 20px;
+  margin: 30px;
   width: 935px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   position: relative;
@@ -720,6 +720,7 @@ h6 {
   font-size: 14px;
   font-weight: 500;
   padding-top: 10px;
+  margin-right: 10px;
   color: rgba(255, 255, 255, 0.6);
   font-family: var(--font-primary);
 }
