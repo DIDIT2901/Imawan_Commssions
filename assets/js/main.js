@@ -95,6 +95,28 @@ document.addEventListener('DOMContentLoaded', () => {
     }));
   }
 
+    /**
+   * Open Pop Up
+   */
+     const popup = document.getElementById('popup');
+     const openBtn = document.getElementById('openBtn');
+     
+     openBtn.addEventListener('click', () => {
+       popup.style.display = 'flex';
+     });
+     
+     popup.addEventListener('click', () => {
+       popup.style.display = 'none';
+     });
+     
+     document.querySelector('.popup-box').addEventListener('click', (e) => {
+       e.stopPropagation();
+     });
+
+     closeBtn.addEventListener('click', () => {
+      popup.style.display = 'none';
+    });
+
   /**
    * Initiate glightbox
    */
