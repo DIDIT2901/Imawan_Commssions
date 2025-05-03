@@ -690,14 +690,14 @@ h6 {
   display: none;
   justify-content: center;
   align-items: center;
-  /* z-index: 999; */
+  z-index: 999;
 }
 
 .popup-box {
   background: #202020;
   padding-right: 10px;
   border-radius: 8px;
-  margin: 20px;
+  margin: 10px;
   width: 935px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   position: relative;
