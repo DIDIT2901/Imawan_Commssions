@@ -690,7 +690,7 @@ h6 {
   display: none;
   justify-content: center;
   align-items: center;
-  z-index: 999;
+  /* z-index: 999; */
 }
 
 .popup-box {
@@ -698,7 +698,8 @@ h6 {
   padding-right: 10px;
   border-radius: 8px;
   margin: 10px;
-  width: 935px;
+  padding-bottom: 30px;
+  width: 700px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   position: relative;
   
@@ -707,7 +708,7 @@ h6 {
 .popup-box h2 {
   margin: 0;
   margin: 0;
-  padding-top: 10px;
+  padding-top: 30px;
   padding-bottom: 20px;
   font-size: 36px;
   font-weight: 700;
